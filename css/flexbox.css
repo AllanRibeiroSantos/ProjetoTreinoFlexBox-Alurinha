@@ -1,0 +1,154 @@
+.cabecalhoPrincipal .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	margin-right: 5%;
+	justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm {
+	display: flex;
+	width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+	display: flex; /* Fez com que o botão ficasse do mesmo tamanho que o form */
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	height: 260px; /* Limita o tamanho do footer, fazendo com que a quebra de coluna aconteça aqui */
+	flex-flow: column wrap;
+}
+
+.conteudoPrincipal-cursos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+	width: 23%;
+}
+
+.conteudoPrincipal-cursos-link:last-child {
+	margin-bottom: 1%; /* O normal seria fazer isso para todos */
+}
+
+.videoSobre .container {
+	display: flex;
+	text-align: center;
+}
+
+.videoSobre-sobre {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+	flex-grow: 1; /* Faz com que o elemento cresça (coluna) até empurrar o botão para baixo */
+}
+
+.videoSobre-video {
+	flex-grow: 1;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1000px) {
+	
+	.conteudoPrincipal-cursos-link {
+		width: 48%;
+		margin: 1%;
+		flex-direction: column;
+	}
+
+	.videoSobre .container {
+		flex-direction: column;
+	}
+
+	.videoSobre-video {
+		margin: 0 auto;	
+	}
+
+
+	.rodapePrincipal-navMap-list {
+		flex-direction: column;
+		height: auto; /* Você deve colocar auto para os elementos não quebrarem para a próxima coluna */
+		
+	}
+
+	.rodapePrincipal-patrocinadores .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rodapePrincipal-patrocinadores-list {
+		display: flex;
+		width: 70%;
+		margin-right: 30%;
+	}
+
+	.rodapePrincipal-contatoForm {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.rodapePrincipal-contatoForm-legend {
+		width: 100%;
+	}
+}
+
+@media (max-width: 769px){
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.cabecalhoPrincipal-nav {
+		flex-direction: column;
+	}
+
+	.cabecalhoPrincipal-nav-link-app {
+		order: -1;
+	}
+
+	.videoSobre-video {
+		flex-shrink: 2;
+	}
+
+	.rodapePrincipal-navMap-list {
+		flex-direction: column;
+		height: auto; /* Colocar auto para os elementos não quebrarem para a próxima coluna */
+		text-align: center;
+	}
+
+	.navmap-list-title-bancoDeDados, .navmap-list-title-framework, .navmap-list-title-frontend, .navmap-list-title-backend { border: none;}
+
+	.subtitulo {
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.conteudoPrincipal-cursos-link {
+			width: 100%;
+			margin: 1%;
+			flex-direction: column;
+		}
+}
