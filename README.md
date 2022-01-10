@@ -10,7 +10,13 @@ Eu precisei fazer algumas modificações na parte da Responsividade porque o gri
 
 Sintam-se à vontade para me adicionar/seguir em minhas redes sociais logo abaixo, será um prazer recebe-los!
 
-<div>
-    <a href="[https://www.youtube.com/channel/UCzQ7Tlul19JBSuAMOl_h6XA](https://www.youtube.com/channel/UCzQ7Tlul19JBSuAMOl_h6XA)" target="_blank"><img src="[https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)" target="_blank"></a>
-    <a href="[https://www.linkedin.com/in/allanribeirosantos/](https://www.linkedin.com/in/allanribeirosantos/)" target="_blank"><img src="[https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)" target="_blank"></a>
+<div> 
+  <a href="https://www.youtube.com/channel/UCzQ7Tlul19JBSuAMOl_h6XA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/allanribeirosantos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
+
+<br> **Ilustração:**
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/61354355/148834391-4cb9d663-b1ae-4f07-a673-e4643c8f788c.gif">
 </div>
